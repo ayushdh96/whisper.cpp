@@ -1,0 +1,87 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | CPU : NEON = 1 | ARM_FMA = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": false,
+		"vocab": 51864,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/app/models/ggml-base.en.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:09,040"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 9040
+			},
+			"text": " Jane? Mark? Hi! It's been ages since I last saw you. How are you and Jackie? Yeah, good"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,040",
+				"to": "00:00:14,960"
+			},
+			"offsets": {
+				"from": 9040,
+				"to": 14960
+			},
+			"text": " thanks. And your new baby? George, isn't it? You've got a good memory. Yes, he's"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,960",
+				"to": "00:00:19,680"
+			},
+			"offsets": {
+				"from": 14960,
+				"to": 19680
+			},
+			"text": " too now. What about you? Are you still working in the Health Centre? Yes, for the"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:19,680",
+				"to": "00:00:24,780"
+			},
+			"offsets": {
+				"from": 19680,
+				"to": 24780
+			},
+			"text": " time being, but we're moving in a couple of months. Anyhow, I'd better go. I'm late"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:24,780",
+				"to": "00:00:31,640"
+			},
+			"offsets": {
+				"from": 24780,
+				"to": 31640
+			},
+			"text": " for work. Lovely to see you again. Yeah, likewise. Keep in touch."
+		}
+	]
+}
